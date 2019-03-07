@@ -1,0 +1,97 @@
+body{
+  background-image: url("img/bg.jpg");
+  font-family: "Arial";
+  font-weight: 400;
+  font-size: .9375rem;
+  line-height: 1.25rem;
+  padding-bottom: .227px;
+  padding-top: .227px;
+  background-color: #fff;
+}
+.grid-container{
+  display: grid;
+  margin: auto;
+  padding: 320px;
+}
+*{
+  -webkit-box-sizing: border-box;
+}
+.grid-item{
+  max-width: 440px;
+  width: calc(100% - 40px);
+  padding: 44px;
+  margin-bottom: 28px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  min-width: 430px;
+  min-height: 338px;
+  overflow: hidden;
+  margin: auto;
+  float: auto;
+}
+a, u{
+  text-decoration: none;
+  color: #052379ed;
+}
+a:hover{
+  text-decoration: underline;s
+}
+.text-title{
+  color: #404040;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: 12px;
+  font-family: "Segoe UI","Helvetica Neue","Lucida Grande","Roboto",
+  "Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol",
+  "Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha",
+  "Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic",
+  "Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue",
+  "Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti",
+  "Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+  line-height: 28px;
+}
+.signin{
+  font-size: 20px;
+}
+input[type=text]{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid;
+  padding: 6px 5px;
+  width: 100%;
+  font-size: 15px;
+}
+form{
+  display: block
+  margin-top: 0em;
+}
+.text1{
+  font-size: 0.8125rem;
+}
+.text2{
+  font-size: 0.8125rem;
+}
+.button-container{
+  position: relative;
+  text-align: right;
+}
+.button_1{
+  background-color: #0067b8;
+  border: none;
+  padding: 4px 12px 4px 12px;
+  text-decoration: none;
+  overflow: hidden;
+  min-width: 108px;
+  line-height: inherit;
+  display: inline;
+  height: 32px;
+  position:relative;
+  color: #fff;
+}
+.button_1:hover{
+  background-color: #005da6;
+}
