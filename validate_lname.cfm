@@ -6,16 +6,12 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <!-- store fname in scope variable-->
+    <cfset fname=#URL.fname#>
     <cfoutput>
       <!-- check user input equal to "phuong" -->
-      <cfif form.lname_form EQ "do">
-        <!-- create hidden form to pass fname -->
-        <form id="user_form4" name="user_form4" method="post" action="home.cfm">
-          <input type="hidden" name="fname_form" value="<cfoutput>#form.fname_form#</cfoutput>">
-        </form>
-        <script>
-            document.user_form4.submit();
-        </script>
+      <cfif form.lname EQ "do">
+        <cflocation url="home.cfm?fname=#fname#"/>
       <!-- else redirect back to index.cfm -->
       <cfelse>
         <cflocation url="index.cfm" />
